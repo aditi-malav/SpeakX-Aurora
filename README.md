@@ -1,4 +1,4 @@
-Project Aurora — Personalization & Communication Intelligence Pipeline
+#Project Aurora — Personalization & Communication Intelligence Pipeline
 
 Project Aurora is a machine-learning–based personalization pipeline designed to optimize user engagement in digital products. The system analyzes behavioral user data, identifies meaningful user segments, predicts churn risk, and generates intelligent communication strategies that determine who should receive notifications, what message should be sent, and when it should be delivered. The pipeline is designed to be generalized and reusable across different datasets and products that follow the required behavioral data structure.
 
