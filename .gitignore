@@ -205,3 +205,36 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Python Standard (Included in GitHub Python Template) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+
+# --- Jupyter Notebook Specifics ---
+.ipynb_checkpoints/
+# This ignores the hidden folders created by your Codebase.ipynb
+
+# --- Project Aurora Data Science Artifacts ---
+# Ignore the 2,000-user synthetic datasets and results
+*.csv
+*.xlsx
+# Exceptions: If you want to keep 'experiment_results.csv' as a template, comment the line above
+
+# --- Project Aurora Generated Folders ---
+# These folders are created by your Task 1, 2, and 3 scripts
+outputs/
+iteration_0_before_learning/
+iteration_1_after_learning/
+
+# --- Hardware/Vivado (Optional) ---
+# If you add your MAC Accelerator hardware files later, include these:
+*.jou
+*.log
+*.str
+*.backup
+/hd_visual/
